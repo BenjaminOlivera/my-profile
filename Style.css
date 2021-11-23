@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(164, 188, 216);
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a {
+  color: rgb(89, 89, 184);
+  text-align: center;
+}
+a:hover {
+  color: rgb(226, 226, 226);
+}
+
+h1 {
+  color: rgb(17, 17, 19);
+}
+
+h2 {
+  color: rgb(17, 17, 19);
+}
+
+body {
+  color: rgb(17, 17, 19);
+}
+.card-white {
+  background-color: white;
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 4px 6px 10px rgb(57, 110, 176);
+}
+
+.card-wolkswagen {
+  background-image: url(https://www.eltelegrafo.com.ec/media/k2/items/cache/ad96c89b7f9a03017d7d7990941fd767_XL.jpg);
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 4px 6px 10px rgb(57, 110, 176);
+}
+
+.list-inline {
+  display: inline;
+}
+
+.card-white:hover {
+  background-color: darkgray;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 992px) {
+  /*Para una pantalla <922px, se leerá CSS desktops.. */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /*Para una pantalla <768px, se leerá CSS desktops.. */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /*Para una pantalla <576px, se leerá CSS desktops.. */
+  .container {
+    width: 300px;
+  }
+}
+
+#banner {
+  text-align: center;
+}
